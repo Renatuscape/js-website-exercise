@@ -1,0 +1,43 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    background-color: rgb(238, 246, 248);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+* {
+    border-style: solid;
+    border-color: rgb(160, 174, 192);
+    border-width: 2px;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px auto auto auto;
+    background-color: white;
+    max-width: 650px;
+}
+
+button {
+    background-color: cadetblue;
+    border-style: none;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: rgb(126, 188, 190);
+}
